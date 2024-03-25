@@ -12,7 +12,7 @@ const arr3 = [-5, 9, 5, 3, 2, -3, 6, 8, 4, 1];
 arr3.sort()
 console.log(arr3);
 
-var arr = ["boy", "man", "girl", "school", "girl", "woman"];
+var arr = ["boy", "man", "girl"," ", "school", "girl", "woman"];
 function removeDuplicates(arr){
     return arr.filter((item, index) => arr.indexOf(item) === index);}
     console.log(removeDuplicates(arr))
