@@ -6,6 +6,7 @@ console.log(arr2.slice(-1))
 
 let myPets = ["Cow", "Bird", "Snake", "Dog"]
 let newPets = myPets.join(" ");
+console.log(newPets)
 
 const arr3 = [-5, 9, 5, 3, 2, -3, 6, 8, 4, 1];
 arr3.sort()
