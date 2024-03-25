@@ -13,7 +13,7 @@ console.log(arr3);
 
 var arr = ["boy", "man", "girl", "school", "girl", "woman"];
 function removeDuplicates(arr){
-    return arr.filter(()) => arr.indexOf() === index);}
+    return arr.filter((item, index) => arr.indexOf(item) === index);}
     console.log(removeDuplicates(arr))
 
 let arr5 = ["the", "way", "x", 4];
